@@ -7,6 +7,6 @@ export default class {
   }
   init(){
     if(this.text!='qq')return;
-    this.chatClient.say(this.channel, `@${this.user} Здарова зайбал!`)
+    this.chatClient.say(this.channel, `@${this.user} Привет!`)
   }
 }
